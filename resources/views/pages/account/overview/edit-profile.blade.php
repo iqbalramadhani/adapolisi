@@ -1,0 +1,5 @@
+<x-base-layout>
+
+    {{ theme()->getView('pages/account/overview/_edit-profile', array('class' => 'mb-5 mb-xl-10', 'profile_images' => $profile_images, 'perpetrator_info' => $perpetrator_info, 'offender' => $offender, 'jobs' => $jobs, 'provinces' => $provinces, 'parent_address' => $parent_address, 'selected_province_parent' => $selected_province_parent, 'selected_city_parent' => $selected_city_parent, 'selected_district_parent' => $selected_district_parent, 'selected_village_parent' => $selected_village_parent, 'perpetrator_address' => $perpetrator_address, 'selected_province_perpetrator' => $selected_province_perpetrator, 'selected_city_perpetrator' => $selected_city_perpetrator, 'selected_district_perpetrator' => $selected_district_perpetrator, 'selected_village_perpetrator' => $selected_village_perpetrator,'perpetrator_criminal_offenses' => $perpetrator_criminal_offenses)) }}
+
+</x-base-layout>
